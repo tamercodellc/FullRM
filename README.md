@@ -1,11 +1,12 @@
-# FullRM
+# React + Vite
 
-## Feel free to delete this file and replace it with your own content.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Repository Initialization Notice
+Currently, two official plugins are available:
 
-This repository was automatically initialized by the Bolt to GitHub extension.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-**Auto-Generated Repository**
-- Created to ensure a valid Git repository structure
-- Serves as an initial commit point for your project
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
